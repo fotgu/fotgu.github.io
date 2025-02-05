@@ -6,3 +6,7 @@ featured_image: ""
 description: ""
 ---
 ## aloha
+
+大梦谁先觉
+
+平生我自知

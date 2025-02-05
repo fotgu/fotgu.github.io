@@ -3,6 +3,11 @@
 /resources/_gen/       # Hugo 资源缓存
 /assets/jsconfig.js    # Hugo 生成的 JS 配置
 
+# node
+/node_modules/
+package-lock.json
+package.json
+
 # 系统文件
 .DS_Store
 Thumbs.db

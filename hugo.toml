@@ -1,0 +1,4 @@
+baseURL = 'https://fotgu.github.io/'
+languageCode = 'zh-cn'
+title = 'fotgu 的博客'
+theme = 'ananke'

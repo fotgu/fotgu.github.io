@@ -1,0 +1,56 @@
+baseURL: https://fotgu.github.io/
+languageCode: zh-cn
+title: fotgu 的博客
+theme:
+  - github.com/adityatelange/hugo-PaperMod
+  - github.com/hugomods/giscus
+enableRobotsTXT: true
+buildDrafts: false
+buildFuture: false
+buildExpired: false
+params:
+  env: production
+  defaultTheme: auto
+  ShowReadingTime: true
+  ShowShareButtons: false
+  ShowPostNavLinks: true
+  ShowBreadCrumbs: false
+  ShowCodeCopyButtons: true
+  ShowWordCount: false
+  ShowRssButtonInSectionTermList: true
+  UseHugoToc: false
+  disableSpecial1stPost: false
+  disableScrollToTop: false
+  comments: true
+  hidemeta: false
+  hideSummary: false
+  showtoc: false
+  tocopen: false
+  homeInfoParams:
+    Title: 欢迎来到 fotgu 的博客
+    Content: 我会在这里记录我对生活和技术的感想
+  socialIcons: # optional
+    - name: "Github"
+      url: "https://github.com/fotgu"
+  blog:
+    giscus:
+      repo: fotgu/fotgu.github.io
+      repo_id: R_kgDON0nY7Q
+      category: Announcements
+      category_id: DIC_kwDON0nY7c4Cms1M
+      mapping: pathname
+      strict_matching: true
+      theme: preferred_color_scheme
+      input_position: bottom
+      reactions: true
+      lazy_loading: true
+menu:
+  main:
+    - identifier: archives
+      name: 存档
+      url: /archives
+      weight: 10
+    - identifier: search
+      name: 搜索
+      url: /search
+      weight: 10

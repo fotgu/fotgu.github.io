@@ -4,10 +4,28 @@ title: fotgu 的博客
 theme:
   - github.com/adityatelange/hugo-PaperMod
   - github.com/hugomods/giscus
+taxonomies:
+  tag: tags
 enableRobotsTXT: true
 buildDrafts: false
 buildFuture: false
 buildExpired: false
+
+menu:
+  main:
+    - identifier: archives
+      name: 归档
+      url: /archives
+      weight: 5
+    - identifier: search
+      name: 搜索
+      url: /search
+      weight: 10
+    - identifier: tags
+      name: 标签
+      url: /tags
+      weight: 15
+
 params:
   env: production
   defaultTheme: auto
@@ -44,13 +62,3 @@ params:
       input_position: bottom
       reactions: true
       lazy_loading: true
-menu:
-  main:
-    - identifier: archives
-      name: 存档
-      url: /archives
-      weight: 10
-    - identifier: search
-      name: 搜索
-      url: /search
-      weight: 10

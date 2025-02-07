@@ -10,6 +10,7 @@ enableRobotsTXT: true
 buildDrafts: false
 buildFuture: false
 buildExpired: false
+timeZone: Asia/Shanghai
 
 menu:
   main:

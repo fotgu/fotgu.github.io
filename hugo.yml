@@ -3,7 +3,6 @@ defaultContentLanguage: zh
 title: fotgu 的博客
 theme:
   - github.com/adityatelange/hugo-PaperMod
-  - github.com/hugomods/giscus
 taxonomies:
   tag: tags
 enableRobotsTXT: true
@@ -58,15 +57,3 @@ params:
   socialIcons: # optional
     - name: "Github"
       url: "https://github.com/fotgu"
-  blog:
-    giscus:
-      repo: fotgu/fotgu.github.io
-      repo_id: R_kgDON0nY7Q
-      category: Announcements
-      category_id: DIC_kwDON0nY7c4Cms1M
-      mapping: pathname
-      strict_matching: true
-      theme: preferred_color_scheme
-      input_position: bottom
-      reactions: true
-      lazy_loading: true

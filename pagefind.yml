@@ -1,0 +1,4 @@
+site: public
+output_subdir: pagefind
+glob: posts/*/**/*.{html}
+root_selector: article

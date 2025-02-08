@@ -61,7 +61,7 @@ jobs:
       - name: Install Pagefind
         run: npm install pagefind@1.3.0
       - name: Generate search index
-        run: npx pagefind --site public
+        run: npx pagefind
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:

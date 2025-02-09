@@ -3,7 +3,8 @@ title: "Hello World"
 date: '2025-02-05'
 tags: ["测试"]
 featured_image: ""
-description: ""
+description: "一次尝试，诸多忐忑"
+summary: "纸上得来终觉浅，绝知此事要躬行"
 isCJKLanguage: true
 ---
 ## aloha
